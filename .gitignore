@@ -1,29 +1,199 @@
+# ==============================
 # Python virtual environment
+# ==============================
 venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
 
-# Python cache
+# ==============================
+# Python cache / compiled files
+# ==============================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*$py.class
 
+# ==============================
 # Qdrant / local vector database
+# ==============================
 data/qdrant/
 data/rag_qdrant/
 
+# ==============================
 # Local database files
+# ==============================
 *.sqlite
 *.sqlite3
+db.sqlite3
+db.sqlite3-journal
 
+# ==============================
 # Environment / secrets
+# ==============================
 .env
 .env.*
+.pypirc
 
-# IDE files
+# ==============================
+# IDE / Editor files
+# ==============================
 .vscode/
 .idea/
+.spyderproject
+.spyproject
+.ropeproject
+.cursorignore
+.cursorindexingignore
 
+# ==============================
 # OS files
+# ==============================
 Thumbs.db
 .DS_Store
+
+# ==============================
 # Nested GitHub repository placeholder
+# ==============================
 self_learning_ai_agent/
+
+# ==============================
+# Backup files
+# ==============================
 agent_backup.py.py
+
+# ==============================
+# Distribution / packaging
+# ==============================
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==============================
+# PyInstaller
+# ==============================
+*.manifest
+*.spec
+
+# ==============================
+# Logs
+# ==============================
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==============================
+# Testing / coverage
+# ==============================
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+cover/
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ==============================
+# Django / Flask
+# ==============================
+local_settings.py
+instance/
+.webassets-cache
+
+# ==============================
+# Scrapy
+# ==============================
+.scrapy
+
+# ==============================
+# Sphinx
+# ==============================
+docs/_build/
+
+# ==============================
+# PyBuilder
+# ==============================
+.pybuilder/
+target/
+
+# ==============================
+# pyenv
+# ==============================
+.python-version
+
+# ==============================
+# pipenv / poetry / pdm
+# ==============================
+Pipfile.lock
+poetry.lock
+.pdm.toml
+.pdm-python
+.pdm-build/
+__pypackages__/
+
+# ==============================
+# Celery
+# ==============================
+celerybeat-schedule
+celerybeat.pid
+
+# ==============================
+# SageMath
+# ==============================
+*.sage.py
+
+# ==============================
+# mkdocs
+# ==============================
+/site
+
+# ==============================
+# mypy / pyre / pytype
+# ==============================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# ==============================
+# Cython
+# ==============================
+cython_debug/
+
+# ==============================
+# Ruff
+# ==============================
+.ruff_cache/
