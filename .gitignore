@@ -1,0 +1,29 @@
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Qdrant / local vector database
+data/qdrant/
+data/rag_qdrant/
+
+# Local database files
+*.sqlite
+*.sqlite3
+
+# Environment / secrets
+.env
+.env.*
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
+# Nested GitHub repository placeholder
+self_learning_ai_agent/
+agent_backup.py.py
